@@ -1,0 +1,5 @@
+# $Id: test_manifest,v 1.1.1.1 2007/01/20 00:37:45 comdog Exp $
+load.t
+pod.t
+pod_coverage.t
+prereq.t

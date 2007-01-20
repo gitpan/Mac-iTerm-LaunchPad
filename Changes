@@ -1,0 +1,4 @@
+1.01 - Sat Jan 20 00:58:16 2007
+	* First release of script to create new iTerm sessions in specified
+	directories, but without a lot of typing
+
