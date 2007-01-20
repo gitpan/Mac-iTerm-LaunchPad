@@ -2,7 +2,7 @@
 
 package Mac::iTerm::LaunchPad;
 
-our $VERSION = sprintf "%d.%03d", q$Revision: 1.4 $ =~ m/(\d+) \. (\d+)/x;
+our $VERSION = sprintf "%d.%03d", q$Revision: 1.5 $ =~ m/(\d+) \. (\d+)/x;
 
 =head1 NAME
 
@@ -27,13 +27,15 @@ new-iterm - open a new iTerm window with one or more tabs
 	
 	---Aliases, predefined in code
 	% new-iterm music applications
-
 	
 	---Aliases, defined in your own ~/.new-iterm-aliases
 	% new-iterm foo bar baz
 	
 	---Any combination
 	% new-iterm finder /Users/brian/Dev music ~/Pictures foo
+	
+	---From other commands
+	% perldoc -l Mac::Glue | xargs dirname | xargs new-iterm
 	
 =head1 DESCRIPTION
 
@@ -196,7 +198,9 @@ sub _get_finder_dir
 BEGIN {
 use Mac::Glue ':all';
 
-my $iterm = new Mac::Glue 'iTerm';
+my $iterm = eval { Mac::Glue->new( 'iTerm' ) };
+if( $@ ) { die "Could not load iTerm definitions for Mac::Glue!: $@" }
+
 $iterm->activate;
 my $term = $iterm->make( new => 'terminal' );
 my $session = 1;

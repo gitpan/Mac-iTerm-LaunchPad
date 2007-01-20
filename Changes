@@ -2,6 +2,14 @@
 	* First release of script to create new iTerm sessions in specified
 	directories, but without a lot of typing
 
+1.05 - Sat Jan 20 16:55:35 2007
+	* Added some bits to the Makefile.PL to create the iTerm glue if
+	it isn't already there. If it cannot finally load the iTerm glue,
+	it dies, although it did create the Makefile. The tests will
+	fail in that case (at least until you manually install the iTerm
+	glue). See Mac::Glue for details about using gluemac.
+	* This resolves RT # 24473 from stennie. Thanks :)
+
 1.04 - Sat Jan 20 01:29:20 2007
 	* Added more to the docs to explain the new-iterm program
 	* Fixed up some things that made it into the pre-CVS-imported dir

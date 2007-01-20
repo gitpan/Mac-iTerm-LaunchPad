@@ -1,13 +1,14 @@
 --- #YAML:1.0
 name:                Mac-iTerm-LaunchPad
-version:             1.004
+version:             1.005
 abstract:            ~
-license:             ~
+license:             perl
 generated_by:        ExtUtils::MakeMaker version 6.31
 distribution_type:   module
 requires:     
     Mac::Files:                    0
     Mac::Glue:                     0
+    Mac::Processes:                0
     Test::More:                    0
 meta-spec:
     url:     http://module-build.sourceforge.net/META-spec-v1.2.html
