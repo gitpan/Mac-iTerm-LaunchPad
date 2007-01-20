@@ -2,6 +2,11 @@
 	* First release of script to create new iTerm sessions in specified
 	directories, but without a lot of typing
 
+1.04 - Sat Jan 20 01:29:20 2007
+	* Added more to the docs to explain the new-iterm program
+	* Fixed up some things that made it into the pre-CVS-imported dir
+	I was accidently working in (two demerits for that!).
+
 1.02 - Sat Jan 20 01:16:33 2007
 	* Doc patch to fill in the DESCRIPTION portion
 

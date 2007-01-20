@@ -1,4 +1,4 @@
-$Id: README,v 1.1.1.1 2007/01/20 00:37:45 comdog Exp $
+$Id: README,v 1.2 2007/01/20 07:28:38 comdog Exp $
 
 You can install this using in the usual Perl fashion
 
@@ -12,7 +12,12 @@ the file, you can read it with perldoc.
 
 	perldoc Mac::iTerm::LaunchPad
 	
-If you want to read it before you install it, you can use
+The `new-iterm` script installs whereever you told the Makefile.PL
+to install programs. Without a prefix that defauts to the value you
+set up when you installed Perl. That is probably something like 
+/usr/bin or /usr/bin/perl.
+
+If you want to read the source before you install it, you can use
 perldoc directly on the module file.
 
 	perldoc  lib/LaunchPad.pm
