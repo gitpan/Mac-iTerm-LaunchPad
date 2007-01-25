@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                Mac-iTerm-LaunchPad
-version:             1.005
+version:             1.006
 abstract:            ~
 license:             perl
 generated_by:        ExtUtils::MakeMaker version 6.31

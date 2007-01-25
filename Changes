@@ -2,6 +2,9 @@
 	* First release of script to create new iTerm sessions in specified
 	directories, but without a lot of typing
 
+1.06 - Thu Jan 25 14:27:10 2007
+	* turn on strictures to make CPANTS happy
+
 1.05 - Sat Jan 20 16:55:35 2007
 	* Added some bits to the Makefile.PL to create the iTerm glue if
 	it isn't already there. If it cannot finally load the iTerm glue,
