@@ -1,4 +1,4 @@
-# $Id: Makefile.PL,v 1.3 2007/01/20 22:55:07 comdog Exp $
+# $Id: Makefile.PL 2201 2007-03-17 01:16:15Z comdog $
 use ExtUtils::MakeMaker;
 
 eval "use Test::Manifest 1.14";
@@ -19,11 +19,12 @@ WriteMakefile(
 	'NAME'	       => 'Mac::iTerm::LaunchPad',
 	'VERSION_FROM' => 'lib/LaunchPad.pm',
 	'LICENSE'	   => 'perl',
+	'AUTHOR'       => 'brian d foy <bdfoy@cpan.org>',
 	
 	'PREREQ_PM'    => { 
 		'Test::More'     => '0',
 		'Mac::Files'     => '0',
-		'Mac::Glue'      => '0',
+		'Mac::Glue'      => '1.28',
 		'Mac::Processes' => '0',
 		},
 

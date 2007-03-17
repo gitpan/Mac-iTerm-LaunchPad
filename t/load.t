@@ -1,4 +1,4 @@
-# $Id: load.t,v 1.1.1.1 2007/01/20 00:37:45 comdog Exp $
+# $Id: load.t 2056 2007-01-20 00:37:44Z comdog $
 BEGIN {
 	@classes = qw(Mac::iTerm::LaunchPad);
 	}
