@@ -1,11 +1,14 @@
 #!/usr/bin/perl
 use strict;
 
+use warnings;
+no warnings;
+
 package Mac::iTerm::LaunchPad;
 
-our $VERSION = 1.007;
+our $VERSION = 1.008;
 
-#sprintf "%d.%03d", q$Revision: 2201 $ =~ m/(\d+) \. (\d+)/x;
+#sprintf "%d.%03d", q$Revision: 2499 $ =~ m/(\d+) \. (\d+)/x;
 
 =head1 NAME
 

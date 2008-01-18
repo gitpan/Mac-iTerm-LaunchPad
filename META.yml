@@ -1,9 +1,9 @@
 --- #YAML:1.0
 name:                Mac-iTerm-LaunchPad
-version:             1.007
-abstract:            ~
+version:             1.008
+abstract:            Launch new iTerm windows and tabs
 license:             perl
-generated_by:        ExtUtils::MakeMaker version 6.31
+generated_by:        ExtUtils::MakeMaker version 6.36
 distribution_type:   module
 requires:     
     Mac::Files:                    0
@@ -11,7 +11,7 @@ requires:
     Mac::Processes:                0
     Test::More:                    0
 meta-spec:
-    url:     http://module-build.sourceforge.net/META-spec-v1.2.html
-    version: 1.2
+    url:     http://module-build.sourceforge.net/META-spec-v1.3.html
+    version: 1.3
 author:
     - brian d foy <bdfoy@cpan.org>

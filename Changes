@@ -2,6 +2,12 @@
 	* First release of script to create new iTerm sessions in specified
 	directories, but without a lot of typing
 
+1.08 - Fri Jan 18 04:00:17 2008
+	* Exit gracefully in Makefile.PL is someone tries to run it
+	on a non-Mac (yeah, that's you CPAN Testers!)
+	* Requires at least Perl 5.006 now
+	* No need to upgrade if you already have this
+
 1.07 - Fri Mar 16 18:16:41 2007
 	* Upgraded Mac::Glue prereq to 1.28 (after the Intel fixes)
 
